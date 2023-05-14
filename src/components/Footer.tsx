@@ -40,7 +40,9 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 
 export default function Footer() {
   return (
-    <Box
+    <Flex p={4} 
+      direction='column'
+      align='center'
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container as={Stack} maxW={'6xl'} py={10}>
@@ -111,6 +113,6 @@ export default function Footer() {
           © 2022 Chakra Templates. All rights reserved
         </Text>
       </Box>
-    </Box>
+    </Flex>
   );
 }
