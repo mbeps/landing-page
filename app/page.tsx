@@ -1,8 +1,10 @@
-import Image from 'next/image'
+"use client"
+import HeroSection from "@/components/HeroSection"
 
 export default function Home() {
   return (
     <>
+      <HeroSection />
     </>
   )
 }
