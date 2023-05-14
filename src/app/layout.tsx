@@ -20,7 +20,6 @@ export default function RootLayout({
             p="16px 0px"
             direction="column"
             justifyContent="center"
-            border="1px solid red"
             alignItems="center" // Add this line to center the content vertically
           >
             {children}
